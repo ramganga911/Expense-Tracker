@@ -7,6 +7,10 @@ Welcome to the **Expense Tracker** — a simple and responsive web app built wit
 ![Expense Tracker Screenshot](https://github.com/ramganga911/Expense-Tracker/blob/main/src/assets/image3.png)
 
 ---
+## 📍 Live Demo
+
+🚀 Check out the live version here:  
+👉 **[BudgetBuddy by Ram](https://budgetbuddybyram.netlify.app/)**
 
 ## 🧠 Project Overview
 
