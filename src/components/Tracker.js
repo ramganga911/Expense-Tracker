@@ -74,22 +74,18 @@ const Tracker = () => {
     setTransactions(updatedTransactions);
   };
 
-  const calculateTransactions = () => {
+  useEffect(() => {
     let exp = 0;
     let inc = 0;
 
-    transactions.map((item) => {
+    transactions.forEach((item) => {
       item.transType === "expense"
-        ? (exp = exp + item.amount)
-        : (inc = inc + item.amount);
+        ? (exp += item.amount)
+        : (inc += item.amount);
     });
 
     setExpense(exp);
     setIncome(inc);
-  };
-
-  useEffect(() => {
-    calculateTransactions();
   }, [transactions]);
 
   return (
