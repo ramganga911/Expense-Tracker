@@ -62,3 +62,25 @@ Here's how the application is organized:
 ```bash
 git clone https://github.com/ramganga911/Expense-Tracker.git
 cd Expense-Tracker
+
+
+### 2️⃣ Install Dependencies
+npm install
+
+### 3️⃣ Start the App
+npm start
+
+## This project is great for understanding:
+✅ React components & props
+✅ useState and useEffect hooks
+✅ Conditional rendering
+✅ Lifting state up
+✅ Structuring React projects
+
+## 🙌 Acknowledgement
+Made with ❤️ by Ramganga Kumar
+If you found this helpful, feel free to ⭐️ the repo and connect with me!
+
+📬 Contact
+📧 Email: ramganga911@gmail.com
+🐙 GitHub: @ramganga911
